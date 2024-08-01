@@ -1,0 +1,60 @@
+/* home.module.css */
+
+.homeContainer {
+    background: url('/home-background.jpg') no-repeat center center;
+    background-size: cover;
+    color: #333;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.bannerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bannerText {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.bannerText h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.bannerText p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.socialIcons {
+    margin-top: 20px;
+}
+
+.socialIcons a {
+    color: #333;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.socialIcons a:hover {
+    color: #555;
+}
+
+.bannerImage {
+    flex: 1;
+    text-align: right;
+}
+
+.bannerImage img {
+    max-width: 100%;
+    border-radius: 50%;
+}
